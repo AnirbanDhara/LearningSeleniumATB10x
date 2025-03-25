@@ -1,11 +1,11 @@
-package com.anirbandhara.ex02_Selenium_Basics.ex01_Selenium_Basics;
+package com.anirbandhara.ex01_Selenium_Basics;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.assertj.core.api.Assertions;
+import static org.assertj.core.api.Assertions.*;
 
 public class TestSelenium01 {
 
@@ -22,7 +22,7 @@ public class TestSelenium01 {
 
         // Assert the URL --> validation
         Assert.assertEquals(driver.getCurrentUrl(),"https://app.vwo.com/#/login");
-
+        assertThat(driver.getTitle()).isNotBlank();
 
         // end the session
         driver.quit();

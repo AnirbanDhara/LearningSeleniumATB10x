@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/Anirban/Documents/UIAutomation/LearningSeleniumATB10x/src/test/java/com/anirbandhara/ex01_Selenium_Basics/TestSelenium01.java">
         <classes>
-            <class name="com.anirbandhara.ex01_Selenium_Basics.TestSelenium01">
+            <class name="com.anirbandhara.assignmentProjects.HealthCareApp">
 
             </class>
         </classes>
