@@ -70,7 +70,7 @@ public class HealthCareApp {
         // 6. check we are on "appointment" page
 
         String currentURL = driver.getCurrentUrl();
-        Assert.assertEquals("https://katalon-demo-cura.herokuapp.com/#appointment",currentURL);
+        Assert.assertEquals(currentURL,"https://katalon-demo-cura.herokuapp.com/#appointment");
 
 
         // 7. quit the session
